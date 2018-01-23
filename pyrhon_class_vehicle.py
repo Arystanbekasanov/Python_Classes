@@ -14,6 +14,7 @@ class Car(Vehicle):
 class Truck(Car):
     def __init__(self,cylinder):
         Car.__init__(self,cylinder)
+        print("hello")
 
 truck1=Truck(8)
 truck1.engine()
